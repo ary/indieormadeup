@@ -9,6 +9,9 @@
 	
     <!-- Custom styles for this page -->
 	<link rel="stylesheet" type="text/css" href="custom.css">
+
+	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -17,36 +20,41 @@
 		</div>
 
 
-      	<div class="jumbotron">
-	        <h3>Amazing indie band or completely fake?</h3>
-	        <p class="lead">Choose the real band name.</p>
+      	<div class="jumbotron jumbotron-color">
+	        <h3 class="title-text">Awesome indie band or completely made up?</h3>
+	        <p class="lead title-text">Pick the real band.</p>
 	        
       	</div>
 
-      	<div class="row marketing">
+      	<div class="row">
 	        <div class="col-md-6">
-	          	<!-- <h4>Subheading</h4> -->
-				<p><a onClick="showResult(this)" class="btn btn-lg btn-default btn-block" href="#" role="button" id="left"></a></p>
+	        	<!-- Left button. -->
+				<p><a onClick="showResult(this)" class="btn btn-lg btn-default btn-block band-name" role="button" id="left"></a></p>
 	        </div>
 
 	        <div class="col-md-6">
-				<p><a onClick="showResult(this)" class="btn btn-lg btn-default btn-block" href="#" role="button" id="right"></a></p>
+	        	<!-- Right button. -->
+				<p><a onClick="showResult(this)" class="btn btn-lg btn-default btn-block band-name" role="button" id="right"></a></p>
 	        </div>
       	</div>
 
-
-      	<div id="result">
-      		<h2></h2>
+      	<!-- Hacky way to add vertical spacing. -->
+      	<div class="row" style="height:20px;">
       	</div>
+      
+      	<div class="row">
+	        <div class="col-md-9">
+	        	<!-- Result text. -->
+		      	<div id="result">
+		      		<h2></h2>
+		      	</div>
+	        </div>
 
-		<div class="content">			
-			<!-- <div class="gameBox">
-
-				<button type="button" class"btn btn-default btn-lg btn-block" id="left"></button>
-				<button type="button" class"btn btn-default" id="right"></button>
-
-			</div> -->
-		</div>
+	        <div class="col-md-3 next-column">
+	        	<!-- Next button. -->
+				<a onClick="showNext()" class="btn btn-sm btn-primary btn-block" role="button" id="next">next</a>
+	        </div>
+      	</div>
 
 		<div class="footer">
 		</div>
@@ -54,6 +62,6 @@
 	</div>
 
 	<!-- Scripts -->
-	<script src="myScript.js"></script>
+	<script src="script.js"></script>
 </body>
 </html>
