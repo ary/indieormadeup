@@ -15,7 +15,19 @@ var fakeNames = [
 	"Minimax Skunks",
 	"Squirrel",
 	"Rosemary Starve",
-	"Pariah Amino"
+	"Pariah Amino",
+	"Airstrip Train",
+	"Hornet Annuals",
+	"Suicides Overseers",
+	"The Comeback Stillborn",
+	"Soy Bites ",
+	"Wash Down Manifest",
+	"Hardware Flashback",
+	"Through But Sharpened",
+	"Folk Chicks",
+	"Posture Patrol",
+	"Mount Midwinter",
+	"Opinion Faithfully"
  ];
  
 var realNames = [
@@ -29,12 +41,24 @@ var realNames = [
 	"Hello Saferide",
 	"Times New Viking",
 	"Broods",
-	"Hannah Georgas",
+	"The Monochrome Set",
 	"Teenage Fanclub",
 	"Great Lake Swimmers",
 	"Summer Hymns",
 	"Suburban Kids With Biblical Names",
-	"An Horse"
+	"An Horse",
+	"Mother Mother",
+	"April March",
+	"Bunnygrunt",
+	"Close Lobsters",
+	"The Whitest Boy Alive",
+	"Fire Through the Window",
+	"Elf Power",
+	"Trembling Blue Stars",
+	"Bat for Lashes",
+	"The Apples in Stereo",
+	"Thriving Ivory",
+	"Tiny Dancers"
 ];
 
 // Return a random real bandname.
