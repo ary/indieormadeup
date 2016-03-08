@@ -1,0 +1,36 @@
+/*#container {
+	width:960px;
+	margin-left: auto;
+	margin-right: auto;
+}*/
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+#content {
+	width:50px;
+}
+
+.btn {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.gameBox {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
